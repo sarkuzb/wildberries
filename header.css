@@ -1,0 +1,163 @@
+.header{
+  height: 115px;
+  background-image: linear-gradient(to right, rgb(220, 54, 196), rgb(122, 23, 237));
+  padding-left: 200px;
+  padding-right: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.main-header{
+  max-width: 1504px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* first header */
+
+.first-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-header-div{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.texts-header{
+  margin-right: 20px;
+  color: rgba(255, 255, 255, 0.555);
+}
+
+.texts-header:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.4s ease;
+}
+
+.location{
+  width: 15px;
+  padding-bottom: 3px;
+}
+
+.first-header-div-two{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.26);
+  padding: 5px 5px 4px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.russia-flag{
+  object-fit: cover;
+  width: 13px;
+  height: 13px;
+  border-radius: 100px;
+}
+
+.rubl-convertion{
+  font-size: 12px;
+  margin-left: 5px;
+  color: white;
+}
+
+/* second header */
+
+.second-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.input{
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  padding: 14px;
+}
+
+.cameras{
+  display: flex;
+}
+
+.camera_gray{
+  display: flex;
+}
+
+.camera{
+  position: absolute;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.camera:hover{
+  transition: 0.2s ease;
+  opacity: 0;
+}
+
+.search-input{
+  border: none;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+  color: rgb(78, 78, 78);
+}
+
+.search-input::placeholder{
+  color: rgb(201, 201, 201);
+}
+
+.user-voyti{
+  display: flex;
+}
+
+.menu-second-header{
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.37);
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.menu-second-header:hover{
+  border: 1.5px solid rgba(255, 255, 255, 0.699);
+}
+
+.user-voyti-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.616);
+  font-size: 11px;
+  transition: 0.4s ease;
+}
+
+.user-voyti-div:hover{
+  color: white;
+}
+
+.voyti-korzinka{
+  width: 30px;
+}
+
+.notifications{
+  color: white;
+  display: inline-block;
+  position: absolute;
+  background-color:orangered;
+  padding: 1px 4px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
